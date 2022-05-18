@@ -1,0 +1,231 @@
+header{
+    background-color: blue;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.fondo{
+    position:absolute; 
+    z-index:1;
+    left:4%; 
+    top:36px; 
+    opacity:0.2;
+    width:95%;
+    height: 34%;
+    right: 80px;
+
+}
+h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 52px;
+    color:white;
+    margin-left: 10%;
+    
+}
+h3{
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: white; 
+    margin-left: 10%;
+}
+.titulo1{
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+    margin-left: 10%;
+    margin-right: 78%;
+}
+.perfil{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    position:absolute; 
+    z-index:4;
+    left:80em; 
+    top:50px; 
+    
+}
+.perfilejecutivo{
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    margin-left: 10%;
+    font-size: 25px;
+}
+.right_panel{
+    float: left;
+    width: 25%;
+    margin-left: 70px;
+    border-top: blue 5px solid;
+    border-left: blue 5px solid;
+    border-bottom: blue 5px solid;
+    padding: 100px 100px;
+}
+.titulo2{
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 16%;
+    margin-right: 55%;
+}
+.titulo21{
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 16%;
+    margin-right: 29%;
+}
+.datos{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 16%;
+}
+.logrosp{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 16%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 300px 300px ;
+    grid-template-columns: 3fr 3fr r;
+    grid-gap: 15px;
+    grid-template-areas:
+    "cuadro1 cuadro2"  
+  }
+.grid-item1 {
+    font-family: 'Roboto', sans-serif;
+    grid-area: cuadro1;
+    text-align: center;
+
+  }
+.grid-item2 {
+    font-family: 'Roboto', sans-serif;
+    grid-area: cuadro2;
+    text-align: center;
+  }
+.titulo3{
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.main{
+    width: 48%;
+    margin-right: 10px;
+    border-right: blue 5px solid;
+    border-bottom: blue 5px solid;
+    border-top: blue 5px solid;
+    padding: 100px;
+    float: right;
+}
+.educacion{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15%;
+}
+.titulo4{
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-right: 62%;
+}
+.titulos-pequeños1{
+    font-family: 'Space Mono', monospace;
+    color: blue;
+
+}
+@media screen and (max-width:1500px) { 
+    header{
+        margin-left: 45px;
+        margin-right:0px;
+    }
+    .fondo{
+        width:95%;
+        height:50%;
+    }
+    h1{
+        margin-left: 5%;
+    }
+    h3{
+        margin-left: 5%;
+    }
+    .titulo1{
+        margin-left: 5%;
+    }
+    .perfil{
+        width:250px;
+        height:250px;
+        z-index:4;
+        left:66em; 
+        top:60px; 
+        
+    }
+    .perfilejecutivo{
+        margin-left: 5%;
+        font-size: 23px;
+    }
+    .right_panel{
+        float: left;
+        margin-left: 45px;
+        padding-left: 25px;
+        padding-top: 4px;
+        padding-bottom: 41px;
+
+    }
+    .titulo2{
+        margin-left: 5%;
+    }
+    .titulo21{
+        margin-left: 5%;
+        margin-right: 16%;
+    }
+    .datos{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 5%;
+    }
+    .logrosp{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 5%;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: 300px 300px ;
+        grid-template-columns: 3fr 3fr r;
+        grid-gap: 15px;
+        grid-template-areas:
+        "cuadro1 cuadro2"  
+      }
+    .titulo3{
+
+        font-size: 19px;
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+    .main{
+        float: right;
+        padding-right: 1px;
+        padding-top: 5px;
+        padding-left: 168px;
+        padding-bottom: 53px;
+    }
+    .educacion{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 2%;
+    }
+    .titulo4{
+        font-family: 'Space Mono', monospace;
+        font-size: 20px;
+        background-color: blue;
+        color: white;
+        margin-right: 59%;
+    }
+    .titulos-pequeños1{
+        font-family: 'Space Mono', monospace;
+        color: blue;
+    
+    }
+}
